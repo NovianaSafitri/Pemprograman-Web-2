@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Form Update Buku <?php echo $buku->getJudul(); ?></h1>
+        <h1>Form Update Buku <?php echo $buku->getJudul(); ?></h1>
     <form id="formUpdate" action="/index.php/update" method="POST" class="w-50">
       <!-- Hidden input for ID buku -->
       <input type="hidden" name="id" value="<?php echo $buku->getId(); ?>">
